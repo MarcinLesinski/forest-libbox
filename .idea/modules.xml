@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.jsMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.jsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.jvmMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.jvmTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.nativeMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.nativeMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest_utils.nativeTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest_utils.nativeTest.iml" />
+    </modules>
+  </component>
+</project>
