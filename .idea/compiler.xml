@@ -6,6 +6,10 @@
       <module name="forest_utils.commonTest" target="13" />
       <module name="forest_utils.jvmMain" target="13" />
       <module name="forest_utils.jvmTest" target="13" />
+      <module name="utils.commonMain" target="13" />
+      <module name="utils.commonTest" target="13" />
+      <module name="utils.jvmMain" target="13" />
+      <module name="utils.jvmTest" target="13" />
     </bytecodeTargetLevel>
   </component>
 </project>

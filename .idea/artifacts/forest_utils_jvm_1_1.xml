@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="forest_utils-jvm-1.0-SNAPSHOT">
+  <artifact type="jar" name="forest_utils-jvm-1.1">
     <output-path>C:\aQuu\coding\spring\samples\forest_utils\build\libs</output-path>
-    <root id="archive" name="forest_utils-jvm-1.0-SNAPSHOT.jar">
+    <root id="archive" name="forest_utils-jvm-1.1.jar">
       <element id="module-output" name="forest_utils.jvmMain" />
     </root>
   </artifact>

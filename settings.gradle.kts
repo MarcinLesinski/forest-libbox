@@ -1,3 +1,2 @@
 
-rootProject.name = "forest_utils"
-
+rootProject.name = "utils"

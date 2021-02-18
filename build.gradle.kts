@@ -1,12 +1,15 @@
 plugins {
     kotlin("multiplatform") version "1.4.10"
+    `maven-publish`
 }
-group = "me.user"
-version = "1.0-SNAPSHOT"
+group = "io.stud.forest"
+version = "1.1"
 
 repositories {
     mavenCentral()
 }
+
+
 kotlin {
     jvm {
         compilations.all {

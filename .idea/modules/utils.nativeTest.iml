@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="forest_utils:nativeTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="me.user" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="utils:nativeTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="io.stud.forest" external.system.module.type="sourceSet" external.system.module.version="1.1" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native (mingw_x64) " allPlatforms="Native []/Native [mingw_x64]" useProjectSettings="false" isTestModule="true" externalProjectId="forest_utils">
-        <dependsOnModuleNames>forest_utils:commonTest</dependsOnModuleNames>
+      <configuration version="3" platform="Native (mingw_x64) " allPlatforms="Native []/Native [mingw_x64]" useProjectSettings="false" isTestModule="true" externalProjectId="utils">
+        <dependsOnModuleNames>utils:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>forest_utils.commonTest</sourceSet>
-          <sourceSet>forest_utils.commonMain</sourceSet>
-          <sourceSet>forest_utils.nativeMain</sourceSet>
+          <sourceSet>utils.commonMain</sourceSet>
+          <sourceSet>utils.commonTest</sourceSet>
+          <sourceSet>utils.nativeMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>
-          <externalSystemTestTask>nativeTest|forest_utils:nativeTest|native</externalSystemTestTask>
+          <externalSystemTestTask>nativeTest|utils:nativeTest|native</externalSystemTestTask>
         </externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
@@ -59,10 +59,10 @@
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.4.10" level="project" />
-    <orderEntry type="module" module-name="forest_utils.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="utils.commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.10 - stdlib" level="project" />
-    <orderEntry type="module" module-name="forest_utils.nativeMain" scope="TEST" />
-    <orderEntry type="module" module-name="forest_utils.commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="utils.nativeMain" scope="TEST" />
+    <orderEntry type="module" module-name="utils.commonMain" scope="TEST" />
   </component>
-  <component name="TestModuleProperties" production-module="forest_utils.nativeMain" />
+  <component name="TestModuleProperties" production-module="utils.nativeMain" />
 </module>
