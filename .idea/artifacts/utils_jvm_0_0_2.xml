@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="utils-js-1.1">
+  <artifact type="jar" name="utils-jvm-0.0.2">
     <output-path>C:\aQuu\coding\spring\samples\forest_utils\build\libs</output-path>
-    <root id="archive" name="utils-js-1.1.jar">
-      <element id="module-output" name="utils.jsMain" />
+    <root id="archive" name="utils-jvm-0.0.2.jar">
+      <element id="module-output" name="utils.jvmMain" />
     </root>
   </artifact>
 </component>

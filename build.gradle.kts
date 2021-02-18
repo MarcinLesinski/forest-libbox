@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 group = "io.stud.forest"
-version = "1.1"
+version = "1.2"
 
 repositories {
     mavenCentral()
@@ -44,7 +44,11 @@ kotlin {
                 implementation(kotlin("test-annotations-common"))
             }
         }
-        val jvmMain by getting
+        val jvmMain by getting{
+            dependencies {
+                implementation("org.jetbrains.kotlin:kotlin-reflect:1.3.41")
+            }
+        }
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit5"))
