@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="utils:commonTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="io.stud.forest" external.system.module.type="sourceSet" external.system.module.version="1.1" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="forest-libbox:commonTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="io.stud.forest" external.system.module.type="sourceSet" external.system.module.version="0.0.2" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []/Native [general]" useProjectSettings="false" isTestModule="true" externalProjectId="utils">
+      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []/Native [general]" useProjectSettings="false" isTestModule="true" externalProjectId="forest-libbox">
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>
-          <externalSystemTestTask>jsBrowserTest|utils:jsTest|js</externalSystemTestTask>
-          <externalSystemTestTask>jvmTest|utils:jvmTest|jvm</externalSystemTestTask>
-          <externalSystemTestTask>nativeTest|utils:nativeTest|native</externalSystemTestTask>
+          <externalSystemTestTask>jsBrowserTest|forest-libbox:jsTest|js</externalSystemTestTask>
+          <externalSystemTestTask>jvmTest|forest-libbox:jvmTest|jvm</externalSystemTestTask>
+          <externalSystemTestTask>nativeTest|forest-libbox:nativeTest|native</externalSystemTestTask>
         </externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
@@ -40,10 +40,10 @@
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="utils.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="forest-libbox.commonMain" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.10" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="utils.commonMain" />
+  <component name="TestModuleProperties" production-module="forest-libbox.commonMain" />
 </module>

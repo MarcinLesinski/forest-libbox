@@ -2,10 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="forest.commonMain" target="13" />
+      <module name="forest.commonTest" target="13" />
+      <module name="forest.jvmMain" target="13" />
+      <module name="forest.jvmTest" target="13" />
       <module name="forest_utils.commonMain" target="13" />
       <module name="forest_utils.commonTest" target="13" />
       <module name="forest_utils.jvmMain" target="13" />
       <module name="forest_utils.jvmTest" target="13" />
+      <module name="io.stud.forest.utils.commonMain" target="13" />
+      <module name="io.stud.forest.utils.commonTest" target="13" />
+      <module name="io.stud.forest.utils.jvmMain" target="13" />
+      <module name="io.stud.forest.utils.jvmTest" target="13" />
       <module name="utils.commonMain" target="13" />
       <module name="utils.commonTest" target="13" />
       <module name="utils.jvmMain" target="13" />
