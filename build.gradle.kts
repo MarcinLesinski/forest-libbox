@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 group = "io.stud.forest"
-version = "0.0.6"
+version = "0.0.7"
 
 repositories {
     mavenCentral()
@@ -39,7 +39,7 @@ kotlin {
         sourceSets {
             val commonMain by getting{
                 dependencies{
-                    implementation(kotlin("stdlib"))
+                    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
                 }
             }
             val commonTest by getting {
@@ -50,6 +50,7 @@ kotlin {
             }
             val jvmMain by getting {
                 dependencies {
+                    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
                     implementation("org.jetbrains.kotlin:kotlin-reflect:1.3.41")
                 }
             }
