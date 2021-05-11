@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 group = "io.stud.forest"
-version = "0.0.5"
+version = "0.0.6"
 
 repositories {
     mavenCentral()
@@ -37,7 +37,11 @@ kotlin {
 
 
         sourceSets {
-            val commonMain by getting
+            val commonMain by getting{
+                dependencies{
+                    implementation(kotlin("stdlib"))
+                }
+            }
             val commonTest by getting {
                 dependencies {
                     implementation(kotlin("test-common"))
@@ -65,3 +69,6 @@ kotlin {
         }
     }
 }
+
+
+
