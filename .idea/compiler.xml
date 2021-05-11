@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="forest-libbox.commonMain" target="13" />
+      <module name="forest-libbox.commonTest" target="13" />
+      <module name="forest-libbox.jvmMain" target="13" />
+      <module name="forest-libbox.jvmTest" target="13" />
       <module name="forest.commonMain" target="13" />
       <module name="forest.commonTest" target="13" />
       <module name="forest.jvmMain" target="13" />

@@ -1,2 +1,2 @@
 
-rootProject.name = "forest-libbox"
+rootProject.name = "libbox"

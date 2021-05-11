@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.commonMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.commonTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.jsMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.jsTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.jvmMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.jvmTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.nativeMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.nativeMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest.nativeTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest.nativeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.jsMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.jsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.jvmMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.jvmTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.nativeMain.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.nativeMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forest-libbox.nativeTest.iml" filepath="$PROJECT_DIR$/.idea/modules/forest-libbox.nativeTest.iml" />
     </modules>
   </component>
 </project>
