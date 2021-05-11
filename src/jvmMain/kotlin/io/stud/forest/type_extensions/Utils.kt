@@ -1,4 +1,4 @@
-package io.stud.forest
+package io.stud.forest.type_extensions
 
 import java.math.BigInteger
 

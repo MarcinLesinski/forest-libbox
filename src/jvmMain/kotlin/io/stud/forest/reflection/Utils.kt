@@ -1,4 +1,4 @@
-package io.stud.forest
+package io.stud.forest.reflection
 
 import java.lang.reflect.Modifier
 import kotlin.reflect.KFunction
@@ -12,7 +12,7 @@ import kotlin.reflect.jvm.kotlinFunction
  * val startFunctionName = "day${day}_${part}"
  * val clazz = object : Any() {}.javaClass.enclosingClass*
  * val clazz = Class.forName("package.subpackage.FileNameKt")
- * io.stud.forest.getStaticFunctionForClass(clazz, startFunctionName)?.call()
+ * io.stud.forest.reflection.getStaticFunctionForClass(clazz, startFunctionName)?.call()
  */
 fun getStaticFunctionForClass(clazz: Class<*>, funcName: String): KFunction<*>? {
     val javaMethod = clazz.methods.find { it.name == funcName && Modifier.isStatic(it.modifiers) }

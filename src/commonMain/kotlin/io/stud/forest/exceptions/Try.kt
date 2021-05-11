@@ -1,4 +1,4 @@
-package io.stud.forest
+package io.stud.forest.exceptions
 
 sealed class Try<out T> {
     abstract fun isSuccess(): Boolean
