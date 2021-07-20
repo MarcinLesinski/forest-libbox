@@ -1,9 +1,9 @@
 package io.stud.forest.reflection
 
 import java.lang.reflect.Modifier
-import kotlin.reflect.KFunction
-import kotlin.reflect.KMutableProperty
+import kotlin.reflect.*
 import kotlin.reflect.full.memberProperties
+import kotlin.reflect.full.starProjectedType
 import kotlin.reflect.jvm.kotlinFunction
 
 
@@ -29,3 +29,13 @@ fun <PropertyType> setProperty(instance: Any, propertyName: String, propertyValu
         property.setter.call(instance, propertyValue)
     }
 }
+
+inline fun <reified Type> constructorOf(vararg paramTypes: KClass<*>): KFunction<Type>? {
+    val searchingParameterTypes = paramTypes.map { it.starProjectedType }
+    return Type::class.constructors.find { constructor ->
+        val constructorKParameterTypes= constructor.parameters.map { it.type }
+
+        constructorKParameterTypes == searchingParameterTypes
+    }
+}
+

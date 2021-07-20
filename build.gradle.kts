@@ -1,9 +1,9 @@
 plugins {
     kotlin("multiplatform") version "1.4.10"
-    `maven-publish`
+//    `maven-publish`
 }
 group = "io.stud.forest"
-version = "0.0.8"
+version = "0.0.9"
 
 repositories {
     mavenCentral()
@@ -13,7 +13,7 @@ repositories {
 kotlin {
     jvm {
         compilations.all {
-            kotlinOptions.jvmTarget = "13"
+            kotlinOptions.jvmTarget = "1.8"
         }
 
         js {
@@ -39,24 +39,31 @@ kotlin {
         sourceSets {
             val commonMain by getting{
                 dependencies{
-                    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+                    implementation("org.jetbrains.kotlin:kotlin-stdlib")
                 }
             }
+
+            // According to documentation you can only use a dedicated library for testing common
             val commonTest by getting {
                 dependencies {
                     implementation(kotlin("test-common"))
                     implementation(kotlin("test-annotations-common"))
+                    implementation(kotlin("test-junit5"))
                 }
             }
             val jvmMain by getting {
                 dependencies {
-                    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+                    implementation("org.jetbrains.kotlin:kotlin-stdlib")
                     implementation("org.jetbrains.kotlin:kotlin-reflect:1.3.41")
                 }
             }
             val jvmTest by getting {
+
                 dependencies {
                     implementation(kotlin("test-junit5"))
+                    compileOnly("org.junit.jupiter:junit-jupiter-params:5.7.0")
+                    compileOnly("org.assertj:assertj-core:3.11.1")
+
                 }
             }
             val jsMain by getting
