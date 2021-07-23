@@ -1,5 +1,5 @@
 # forest-libbox
-
+![prettier version](https://img.shields.io/badge/ver-0.0.10-blue)
 	Set of utilities to improve kotlin coding.
 	
 ## Content
@@ -22,7 +22,7 @@ sourceControl{
 - Then add depenndency build.gradle.kts as usual
 ```
 dependencies {
-	implementation("io.stud.forest:libbox:0.0.7")
+	implementation("io.stud.forest:libbox:${version}")
 }
 ```
 

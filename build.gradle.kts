@@ -3,7 +3,7 @@ plugins {
 //    `maven-publish`
 }
 group = "io.stud.forest"
-version = "0.0.9"
+version = "0.0.10"
 
 repositories {
     mavenCentral()
@@ -55,6 +55,7 @@ kotlin {
                 dependencies {
                     implementation("org.jetbrains.kotlin:kotlin-stdlib")
                     implementation("org.jetbrains.kotlin:kotlin-reflect:1.3.41")
+                    implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.5.2")
                 }
             }
             val jvmTest by getting {
