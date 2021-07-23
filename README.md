@@ -1,5 +1,5 @@
-# forest-libbox
 ![prettier version](https://img.shields.io/badge/ver-0.0.10-blue)
+# forest-libbox
 	Set of utilities to improve kotlin coding.
 	
 ## Content
@@ -9,7 +9,7 @@
 
 ## Usage
 
-###Gradle
+### Gradle
 
 - Add git repository to settings.gradle.kts
 ```
